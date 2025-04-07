@@ -1,112 +1,112 @@
-
 {% load static %}
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Udhay Karthik R</title>
-	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	
+    <title>Udhay Karthik R</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-	<br>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="card card-body h-100  border-info" id="profile-wrapper">
-					<img id="profile-pic" src="{% static 'images/profile.png' %}" >
-					<hr>
-					<h4>Hi I'm Udhay Karthik!</h4>
-					<p>I am a web developer specializing in backend development with Django. My journey in tech is driven by a passion for building efficient and scalable applications. Currently, I am expanding my expertise in AI/ML, particularly in Generative AI and Large Language Models (LLMs).</p>
-				</div>
-			</div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info text-center" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/profile.png' %}" alt="Profile Picture">
+                    <hr>
+                    <h4>Hi, I'm Udhay Karthik!</h4>
+                    <p>I am a web developer specializing in backend development with Django. Currently exploring AI/ML, especially Generative AI and Large Language Models (LLMs).</p>
+                </div>
+            </div>
 
-			<div class="col-md-9">
-				<div class="card card-body h-100  border-info">
-					<h4>🚀 My Projects</h4>
-					<hr>
-					<h6>🌦 Weather App - Django & Flask </h6>
-                        <p>- A sleek web app built using Django & Flask that allows users to fetch real-time weather data based on city names using external APIs. Focuses on clean UI and API integration..</p>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>🚀 My Projects</h4>
+                    <hr>
+                    <h6>🌦 Weather App (Django & Flask)</h6>
+                    <p>- A sleek web app that fetches real-time weather data using external APIs. Clean UI + robust API integration.</p>
 
-					<h6>🤖 Mobile Serivce Chatbot using Gemini API & Gradio</h6>
-                        <p>- An interactive chatbot built with Gemini API, deployed using Gradio. It answers frequently asked questions and simulates real-time smart responses — a great blend of AI + UI..</p>
-                    
-                    <h6>📝 To-Do List App using Django</h6>    
-                    <p>- A fully functional CRUD-based app with authentication. Great example of how I approach user-based design and clean backend logic.</p>
-					<p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p>
+                    <h6>🤖 Mobile Service Chatbot (Gemini API & Gradio)</h6>
+                    <p>- An interactive chatbot answering FAQs with real-time smart responses — AI meets intuitive UI.</p>
 
-					<ul class="social-links">
-						
-						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
-						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
-                        <li><img class="social" src="{% static 'images/gmail.png' %}"></li>
-						git status
+                    <h6>📝 To-Do List App (Django)</h6>
+                    <p>- CRUD-based task manager with authentication. Backend focused, clean and secure logic.</p>
 
-					</ul>
+                    <p>I jump in and build things before I overthink. It’s how I learn fast and grow stronger 💡</p>
 
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="card card-body h-100">
-					<h5>🛠 My Experience on Projects as a Developer</h5>
-					<hr>
-					<p>- Built and deployed a full-stack To-Do application using Django with user authentication and CRUD features..<br>
-                       - Developed Django and Flask-based Weather Apps integrating external APIs to provide real-time weather updates..<br>
-                       - Created an FAQs Chatbot using Gemini API and Gradio for interactive AI-driven user queries.<br>
-                       - Continuously learning and experimenting in the field of AI/ML.<br>
+                    <div class="social-links mt-3">
+                        <ul>
+                            <li><img class="social" src="{% static 'images/linkedin.png' %}" alt="LinkedIn"></li>
+                            <li><img class="social" src="{% static 'images/twitter.png' %}" alt="Twitter"></li>
+                            <li><img class="social" src="{% static 'images/gmail.png' %}" alt="Gmail"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>🛠 My Experience on Projects</h5>
+                    <hr>
+                    <p>
+                        - Built and deployed full-stack apps with Django, including auth & CRUD.<br>
+                        - Created weather apps with Django/Flask using APIs.<br>
+                        - Developed AI-based chatbot using Gemini API + Gradio.<br>
+                        - Learning and experimenting with AI/ML regularly.
                     </p>
-					</div>
-			</div>
+                </div>
+            </div>
 
-			<div class="col-md-6">
-				<div class="card card-body h-100">
-					<h5>💡 What I Know</h5>
-					<hr>
-					<p>- Languages & Frameworks: Python, C++,  HTML, CSS, Django, Flask.<br>
-                       - Libraries & Tools: Gradio, Gemini API. <br>
-                       - Database & Backend: MySQL, SQLite, Django ORM <br>
-                       - Frontend Basics: Responsive Design, Forms, Templates (Django) <br>
-                       - Currently Exploring: MongoDB, AI/ML concepts and projects
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>💡 What I Know</h5>
+                    <hr>
+                    <p>
+                        - Languages: Python, C++, HTML, CSS<br>
+                        - Frameworks: Django, Flask<br>
+                        - Tools: Gradio, Gemini API<br>
+                        - Backend: MySQL, SQLite, Django ORM<br>
+                        - Frontend: Forms, templates, responsive basics<br>
+                        - Currently Exploring: MongoDB, ML & AI Projects
                     </p>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="card card-body h-100">
-					<h5>📚 How I Learn</h5>
-					<hr>
-					<p>- I follow a *learn by doing* approach — building real-world projects while learning the concepts.<br>
-                        - Practice Python, Django, and DSA consistently.<br>
-                        - Use YouTube (like Traversy Media, Academind, BroCode) and Udemy for structured learning.<br>
-                        - I talk to peers and mentors, and reflect on feedback to improve.</p><br>
+                </div>
+            </div>
+        </div>
 
-					
-				</div>
-			</div>
+        <br>
 
-			<div class="col-md-6">
-				<div class="card card-body h-100">
-					<h5>🎯 My Short Term Goals</h5>
-				<hr>
-				<p> - Master Django and deploy at least 2 complete full-stack apps.<br>
-                    - Solve 100+ DSA problems to build a strong foundation.<br>
-                    - Contribute to open source and participate in more hackathons.<br>
-                    - Learn JavaScript deeply, especially DOM and asynchronous behavior.<br>
-                    
-                    </p><br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>📚 How I Learn</h5>
+                    <hr>
+                    <p>
+                        - *Learn by doing* — I build real-world projects.<br>
+                        - Practice Python, Django, and DSA regularly.<br>
+                        - Use YouTube (Traversy Media, BroCode) + Udemy.<br>
+                        - Reflect on peer/mentor feedback to grow.
+                    </p>
+                </div>
+            </div>
 
-				</div>
-			</div>
-		</div>
-		<br>
-	</div>
-
-
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>🎯 My Short-Term Goals</h5>
+                    <hr>
+                    <p>
+                        - Master Django and deploy 2+ full-stack apps.<br>
+                        - Solve 100+ DSA problems.<br>
+                        - Contribute to open source & attend hackathons.<br>
+                        - Learn JavaScript in-depth (DOM & async).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
